@@ -1,0 +1,70 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:fitsSystemWindows="true"
+        android:animateLayoutChanges="true"
+        tools:context=".MainActivity">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorPrimary"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme"
+            tools:layout_editor_absoluteX="1dp" />
+
+        <TextView
+            android:id="@+id/tv_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            app:layout_constraintBottom_toTopOf="@+id/btnSetBadge"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.06"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="50" />
+
+        <!--    <EditText-->
+        <!--        android:id="@+id/numInput"-->
+        <!--        android:layout_width="match_parent"-->
+        <!--        android:layout_height="wrap_content"-->
+        <!--        android:inputType="numberDecimal"-->
+        <!--        />-->
+
+        <Button
+            android:id="@+id/btnSetBadge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Set badge"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.02"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.111" />
+
+        <!--    <Button-->
+        <!--        android:id="@+id/btnSetBadgeByNotification"-->
+        <!--        android:layout_width="wrap_content"-->
+        <!--        android:layout_height="wrap_content"-->
+        <!--        android:layout_centerHorizontal="true"-->
+        <!--        android:layout_centerVertical="true"-->
+        <!--        android:text="Launch Notification"/>-->
+
+        <!--    <Button-->
+        <!--        android:id="@+id/btnRemoveBadge"-->
+        <!--        android:layout_width="wrap_content"-->
+        <!--        android:layout_height="wrap_content"-->
+        <!--        android:layout_centerHorizontal="true"-->
+        <!--        android:layout_centerVertical="true"-->
+        <!--        android:text="Remove badge"/>-->
+
+
+    </LinearLayout>
+</layout>

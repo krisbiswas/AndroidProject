@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">LocationQuery</string>
+    <string name="tab_text_1">Map View</string>
+    <string name="tab_text_2">List View</string>
+    <string name="center_timings">Timings</string>
+    <string name="api_map_key">AIzaSyCiheHHmeHhxsLsIl39Cv-0Omg8Kvbo5-E</string>
+</resources>

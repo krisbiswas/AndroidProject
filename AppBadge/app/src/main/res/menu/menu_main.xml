@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/miNotification"
+        android:icon="@drawable/ic_bell"
+        app:showAsAction="ifRoom"
+        android:actionLayout="@layout/ring_action"
+        android:title="Notification">
+    </item>
+    <item
+        android:id="@+id/miAddPlot"
+        android:icon="@drawable/ic_add_plot"
+        android:title="Add Plot"
+        app:showAsAction="ifRoom" />
+</menu>

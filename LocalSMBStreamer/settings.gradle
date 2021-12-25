@@ -1,0 +1,2 @@
+rootProject.name = "Local Streamer"
+include ':app'
